@@ -68,6 +68,10 @@ body {
   align-items: center;
 }
 
+.categories__wrapper--hidden {
+  display: none;
+}
+
 .category__card {
   min-width: 12.5rem;
   min-height: 15.75rem;
@@ -77,4 +81,32 @@ body {
   border: 1px solid whitesmoke;
   background-color: rgb(189, 189, 162);
   text-align: center;
+}
+
+.large-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  gap: 2rem;
+  text-align: center;
+}
+
+.large-card__title {
+  color: rgb(244, 220, 115);
+}
+
+.large-card__setup--hidden {
+  display: none;
+}
+
+.large-card__back-button, .large-card__next-button {
+  background-color: rgb(12, 21, 50);
+  color: rgb(241, 198, 5);
+  border: none;
+  border-radius: 5%;
+  min-width: 5.25rem;
+  min-height: 1.5rem;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

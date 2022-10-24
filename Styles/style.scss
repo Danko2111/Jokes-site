@@ -75,6 +75,10 @@ body {
     align-items: center;
 }
 
+.categories__wrapper--hidden {
+    display: none;
+}
+
 .category__card {
     min-width: 12.5rem;
     min-height: 15.75rem;
@@ -84,6 +88,36 @@ body {
     border: 1px solid $primary-text;
     background-color: $card-background;
     text-align: center;
+}
+
+// Large card section -----------------------------------------------------------------
+
+.large-card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    gap: 2rem;
+    text-align: center;
+}
+
+.large-card__title {
+    color: $secondary-text;
+}
+
+.large-card__setup--hidden {
+    display: none;
+}
+
+.large-card__back-button, .large-card__next-button {
+    background-color: $title-background;
+    color: $title-yellow;
+    border: none;
+    border-radius: 5%;
+    min-width: 5.25rem;
+    min-height: 1.5rem;
+    text-transform: uppercase;
 }
 
 
